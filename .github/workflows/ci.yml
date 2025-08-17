@@ -10,7 +10,9 @@ on:
 
 jobs:
     build:
-        runs-on: [self-hosted, linux, ubuntu]
+        # runs-on: [self-hosted, Linux, X64, ubuntu]
+        runs-on: [self-hosted, Linux, X64]
+
 # ubuntu-latest
         steps:
         - name: Checkout code
