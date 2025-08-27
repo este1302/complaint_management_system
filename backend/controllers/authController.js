@@ -51,7 +51,7 @@ const getProfile = async (req, res) => {
       res.status(500).json({ message: 'Server error', error: error.message });
     }
   };
-
+//ff
 const updateUserProfile = async (req, res) => {
     try {
         const user = await User.findById(req.user.id);
